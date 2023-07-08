@@ -25,6 +25,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_ROBIUM_ORE = registerBlock("deepslate_robium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> OIL_BARREL = registerBlock("oil_barrel",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

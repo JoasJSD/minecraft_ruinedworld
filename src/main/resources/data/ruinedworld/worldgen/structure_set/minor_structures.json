@@ -1,0 +1,30 @@
+{
+	"structures": [
+		{
+			"structure": "ruinedworld:abandoned_bus_station",
+			"weight": 1
+		},
+		{
+			"structure": "ruinedworld:abandoned_gas_station",
+			"weight": 2
+		},
+		{
+			"structure": "ruinedworld:buried_chest",
+			"weight": 1
+		},
+		{
+			"structure": "ruinedworld:campsite",
+			"weight": 1
+		},
+		{
+			"structure": "ruinedworld:campsite2",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 63249269,
+		"spacing": 40,
+		"separation": 30,
+		"type": "minecraft:random_spread"
+	}
+}

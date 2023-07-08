@@ -41,6 +41,7 @@ public class RuinedWorld
             event.accept(ModBlocks.ROBIUM_ORE);
             event.accept(ModItems.ROBIUM_INGOT);
             event.accept(ModBlocks.DEEPSLATE_ROBIUM_ORE);
+            event.accept(ModBlocks.OIL_BARREL);
         }
     }
 

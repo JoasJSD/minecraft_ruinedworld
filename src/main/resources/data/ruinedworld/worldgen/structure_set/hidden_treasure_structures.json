@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "ruinedworld:buried_shelter",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 24692986,
+		"spacing": 70,
+		"separation": 60,
+		"type": "minecraft:random_spread"
+	}
+}

@@ -18,4 +18,5 @@ public class ModCreativeModeTabs {
         RUINEDWOLRD_TAB = event.registerCreativeModeTab(new ResourceLocation(RuinedWorld.MODID, "ruinedworld_tab"),
                 builder -> builder.icon(() -> new ItemStack(ModItems.ROBIUM_INGOT.get())).title(Component.translatable("tab.ruinedworld_tab")));
     }
+
 }
