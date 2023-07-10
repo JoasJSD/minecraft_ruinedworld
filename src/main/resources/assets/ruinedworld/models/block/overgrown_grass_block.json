@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "ruinedworld:block/overgrown_grass_top",
+    "down": "minecraft:block/dirt",
+    "east": "ruinedworld:block/overgrown_grass_side",
+    "south": "ruinedworld:block/overgrown_grass_side",
+    "west": "ruinedworld:block/overgrown_grass_side",
+    "north": "ruinedworld:block/overgrown_grass_side",
+    "particle": "minecraft:block/dirt"
+  },
+  "render_type": "solid"
+}

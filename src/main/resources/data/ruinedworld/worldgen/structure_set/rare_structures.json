@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "ruinedworld:moosstatue",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 6436296,
+    "separation": 200,
+    "spacing": 400,
+    "type": "minecraft:random_spread",
+    "spread": 3
+  }
+}

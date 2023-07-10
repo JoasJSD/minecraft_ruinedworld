@@ -15,14 +15,14 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 
 import java.util.List;
 
-public class ModPlacedFeatures {
+public class RWPlacedFeatures {
     public static final ResourceKey<PlacedFeature> ROBIUM_ORE_PLACED_KEY = createKey("robium_ore_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        register(context, ROBIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ROBIUM_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(3,
+        register(context, ROBIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RWConfiguredFeatures.OVERWORLD_ROBIUM_ORE_KEY),
+                RWOrePlacement.commonOrePlacement(3,
                         HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(20))));
     }
 

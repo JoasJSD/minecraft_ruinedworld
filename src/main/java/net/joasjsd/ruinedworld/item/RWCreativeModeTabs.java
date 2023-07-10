@@ -10,13 +10,13 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = RuinedWorld.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ModCreativeModeTabs {
-    public static CreativeModeTab RUINEDWOLRD_TAB;
+public class RWCreativeModeTabs {
+    public static CreativeModeTab RUINEDWORLD_TAB;
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
-        RUINEDWOLRD_TAB = event.registerCreativeModeTab(new ResourceLocation(RuinedWorld.MODID, "ruinedworld_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.ROBIUM_INGOT.get())).title(Component.translatable("tab.ruinedworld_tab")));
+        RUINEDWORLD_TAB = event.registerCreativeModeTab(new ResourceLocation(RuinedWorld.MODID, "ruinedworld_tab"),
+                builder -> builder.icon(() -> new ItemStack(RWItems.ROBIUM_INGOT.get())).title(Component.translatable("tab.ruinedworld_tab")));
     }
 
 }

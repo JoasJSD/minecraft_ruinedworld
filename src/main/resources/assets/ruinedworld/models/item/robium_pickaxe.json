@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ruinedworld:item/robium_pickaxe"
+  }
+}

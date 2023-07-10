@@ -1,9 +1,20 @@
 {
-  "item.ruinedworld.robium_ingot": "Robium Ingot",
+  "advancements.ruinedworld.root.title": "When found in..",
+  "advancements.ruinedworld.root.description": "You've found yourself in a ruined world..",
+  "advancements.ruinedworld.moosstatue.title": "Uhhh..",
+  "advancements.ruinedworld.moosstatue.description": "Find a Moos Statue?? Weird...",
 
   "block.ruinedworld.robium_ore": "Robium Ore",
   "block.ruinedworld.deepslate_robium_ore": "Deepslate Robium Ore",
   "block.ruinedworld.oil_barrel": "Oil Barrel",
+  "block.ruinedworld.overgrown_grass_block": "Overgrown Grass Block",
+  "block.ruinedworld.portal_block": "Portal Block",
+  "block.ruinedworld.roxius_block": "Roxius Block",
+
+  "item.ruinedworld.robium_ingot": "Robium Ingot",
+  "item.ruinedworld.robium_miner_spawn_egg": "Robium Miner Spawn Egg",
+  "item.ruinedworld.obsidian_stick": "Obsidian Stick",
+  "item.ruinedworld.robium_pickaxe": "Robium Pickaxe",
 
   "tab.ruinedworld_tab": "Ruined World Tab"
 }

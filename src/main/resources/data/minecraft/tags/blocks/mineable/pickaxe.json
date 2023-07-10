@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "ruinedworld:robium_ore",
-    "ruinedworld:deepslate_robium_ore"
+    "ruinedworld:deepslate_robium_ore",
+    "ruinedworld:roxius_block"
   ]
 }

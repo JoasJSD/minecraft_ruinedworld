@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ruinedworld:block/roxius_block",
+    "particle": "ruinedworld:block/roxius_block"
+  }
+}

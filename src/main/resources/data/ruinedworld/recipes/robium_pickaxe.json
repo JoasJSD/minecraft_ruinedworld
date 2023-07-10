@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "ruinedworld:robium_ingot"
+    },
+    "1": {
+      "item": "ruinedworld:obsidian_stick"
+    }
+  },
+  "result": {
+    "item": "ruinedworld:robium_pickaxe",
+    "count": 1
+  }
+}

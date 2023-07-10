@@ -1,0 +1,44 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.ruinedworld.moosstatue.title",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancements.ruinedworld.moosstatue.title",
+      "color": "dark_aqua"
+    },
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ruinedworld:moosstatue"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "location0"
+    ]
+  ],
+  "parent": "ruinedworld:wda_root"
+}
