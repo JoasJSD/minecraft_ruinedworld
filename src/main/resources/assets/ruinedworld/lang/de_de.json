@@ -1,0 +1,20 @@
+{
+  "advancements.ruinedworld.root.title": "Gefunden in...",
+  "advancements.ruinedworld.root.description": "Du hast dich in einer ruinierten Welt wiedergefunden...",
+  "advancements.ruinedworld.moosstatue.title": "Uhhh...",
+  "advancements.ruinedworld.moosstatue.description": "Finde eine Moos-Statue? Seltsam...",
+
+  "block.ruinedworld.robium_ore": "Robiumerz",
+  "block.ruinedworld.deepslate_robium_ore": "Tiefenschiefer-Robiumerz",
+  "block.ruinedworld.oil_barrel": "Ölfass",
+  "block.ruinedworld.overgrown_grass_block": "Überwachsener Grasblock",
+  "block.ruinedworld.portal_block": "Portalblock",
+  "block.ruinedworld.roxius_block": "Roxiusblock",
+
+  "item.ruinedworld.robium_ingot": "Robiumbarren",
+  "item.ruinedworld.robium_miner_spawn_egg": "Robiumgräber-Spawn-Ei",
+  "item.ruinedworld.obsidian_stick": "Obsidianstock",
+  "item.ruinedworld.robium_pickaxe": "Robiumspitzhacke",
+
+  "tab.ruinedworld_tab": "Ruinierte Welten"
+}
