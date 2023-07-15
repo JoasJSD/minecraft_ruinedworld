@@ -1,7 +1,7 @@
 package net.joasjsd.ruinedworld.entity.client;
 
 import net.joasjsd.ruinedworld.RuinedWorld;
-import net.joasjsd.ruinedworld.entity.custom.RobiumMinerEntity;
+import net.joasjsd.ruinedworld.entity.custom.ShadowmelderEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import software.bernie.geckolib.constant.DataTickets;
@@ -10,24 +10,24 @@ import software.bernie.geckolib.core.animation.AnimationState;
 import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.model.data.EntityModelData;
 
-public class RobiumMinerModel extends GeoModel<RobiumMinerEntity> {
+public class ShadowmelderModel extends GeoModel<ShadowmelderEntity> {
     @Override
-    public ResourceLocation getModelResource(RobiumMinerEntity animatable) {
-        return new ResourceLocation(RuinedWorld.MODID, "geo/robium_miner.geo.json");
+    public ResourceLocation getModelResource(ShadowmelderEntity animatable) {
+        return new ResourceLocation(RuinedWorld.MODID, "geo/shadowmelder.geo.json");
     }
 
     @Override
-    public ResourceLocation getTextureResource(RobiumMinerEntity animatable) {
-        return new ResourceLocation(RuinedWorld.MODID, "textures/entity/robium_miner_texture.png");
+    public ResourceLocation getTextureResource(ShadowmelderEntity animatable) {
+        return new ResourceLocation(RuinedWorld.MODID, "textures/entity/shadowmelder.png");
     }
 
     @Override
-    public ResourceLocation getAnimationResource(RobiumMinerEntity animatable) {
-        return new ResourceLocation(RuinedWorld.MODID, "animations/robium_miner.animation.json");
+    public ResourceLocation getAnimationResource(ShadowmelderEntity animatable) {
+        return new ResourceLocation(RuinedWorld.MODID, "animations/shadowmelder.animation.json");
     }
 
     @Override
-    public void setCustomAnimations(RobiumMinerEntity animatable, long instanceId, AnimationState<RobiumMinerEntity> animationState) {
+    public void setCustomAnimations(ShadowmelderEntity animatable, long instanceId, AnimationState<ShadowmelderEntity> animationState) {
         CoreGeoBone head = getAnimationProcessor().getBone("head");
 
         if (head != null) {

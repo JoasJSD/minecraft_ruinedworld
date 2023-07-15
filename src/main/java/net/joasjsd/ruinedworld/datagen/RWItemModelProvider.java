@@ -16,7 +16,13 @@ public class RWItemModelProvider extends ItemModelProvider {
     }
     @Override
     protected void registerModels() {
-        withExistingParent(RWItems.ROBIUM_MINER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        handheldItem(RWItems.ROBIUM_SWORD);
+        handheldItem(RWItems.ROBIUM_PICKAXE);
+        handheldItem(RWItems.ROBIUM_AXE);
+        handheldItem(RWItems.ROBIUM_SHOVEL);
+        handheldItem(RWItems.ROBIUM_HOE);
+
+        withExistingParent(RWItems.SHADOWMELDER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
 

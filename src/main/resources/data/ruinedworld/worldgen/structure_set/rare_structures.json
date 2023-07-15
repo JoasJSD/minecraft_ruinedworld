@@ -3,6 +3,10 @@
     {
       "structure": "ruinedworld:moosstatue",
       "weight": 1
+    },
+    {
+      "structure":"ruinedworld:seller_house",
+      "weight": 1
     }
   ],
   "placement": {

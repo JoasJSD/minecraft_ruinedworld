@@ -1,18 +1,18 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.ruinedworld.moosstatue.title",
-      "color": "aqua",
-      "bold": true
+      "translate": "advancements.ruinedworld.abandoned_gas_station.title",
+      "color": "red",
+      "bold": false
     },
     "description": {
-      "translate": "advancements.ruinedworld.moosstatue.description",
-      "color": "dark_aqua"
+      "translate": "advancements.ruinedworld.abandoned_gas_station.description",
+      "color": "dark_gray"
     },
     "icon": {
-      "item": "minecraft:diamond"
+      "item": "ruinedworld:oil_barrel"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
@@ -27,7 +27,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruinedworld:moosstatue"
+                "structure": "ruinedworld:abandoned_gas_station"
               }
             }
           }
@@ -40,5 +40,5 @@
       "location0"
     ]
   ],
-  "parent": "ruinedworld:rw_root"
+  "parent": "ruinedworld:find_abandoned_bus_station"
 }

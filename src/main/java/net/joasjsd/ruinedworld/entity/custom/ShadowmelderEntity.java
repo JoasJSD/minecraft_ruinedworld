@@ -18,17 +18,17 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
-public class RobiumMinerEntity extends Monster implements GeoEntity {
+public class ShadowmelderEntity extends Monster implements GeoEntity {
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-    public RobiumMinerEntity(EntityType<? extends Monster> p_33002_, Level p_33003_) {
+    public ShadowmelderEntity(EntityType<? extends Monster> p_33002_, Level p_33003_) {
         super(p_33002_, p_33003_);
     }
 
     public static AttributeSupplier setAttributes() {
         return Monster.createMobAttributes()
-                .add(Attributes.MAX_HEALTH, 25D)
-                .add(Attributes.ATTACK_DAMAGE, 5.0f)
-                .add(Attributes.ATTACK_SPEED, 1.0f)
+                .add(Attributes.MAX_HEALTH, 50D)
+                .add(Attributes.ATTACK_DAMAGE, 8.0f)
+                .add(Attributes.ATTACK_SPEED, 2.0f)
                 .add(Attributes.MOVEMENT_SPEED, 0.4f).build();
     }
 
@@ -49,11 +49,11 @@ public class RobiumMinerEntity extends Monster implements GeoEntity {
 
     private <T extends GeoAnimatable> PlayState predicate(AnimationState<T> tAnimationState) {
         if(tAnimationState.isMoving()) {
-            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.robiumminer.walk", Animation.LoopType.LOOP));
+            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.shadowmelder.walk", Animation.LoopType.LOOP));
             return PlayState.CONTINUE;
         }
 
-        tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.robiumminer.idle", Animation.LoopType.LOOP));
+        tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.shadowmelder.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 

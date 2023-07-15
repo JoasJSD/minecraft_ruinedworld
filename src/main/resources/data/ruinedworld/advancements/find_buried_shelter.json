@@ -1,18 +1,18 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.ruinedworld.moosstatue.title",
-      "color": "aqua",
-      "bold": true
+      "translate": "advancements.ruinedworld.buried_shelter.title",
+      "color": "gray",
+      "bold": false
     },
     "description": {
-      "translate": "advancements.ruinedworld.moosstatue.description",
-      "color": "dark_aqua"
+      "translate": "advancements.ruinedworld.buried_shelter.description",
+      "color": "dark_gray"
     },
     "icon": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:barrel"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
@@ -27,7 +27,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruinedworld:moosstatue"
+                "structure": "ruinedworld:buried_shelter"
               }
             }
           }
@@ -40,5 +40,5 @@
       "location0"
     ]
   ],
-  "parent": "ruinedworld:rw_root"
+  "parent": "ruinedworld:find_campsite2"
 }

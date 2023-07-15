@@ -1,18 +1,18 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.ruinedworld.moosstatue.title",
-      "color": "aqua",
-      "bold": true
+      "translate": "advancements.ruinedworld.campsite2.title",
+      "color": "red",
+      "bold": false
     },
     "description": {
-      "translate": "advancements.ruinedworld.moosstatue.description",
-      "color": "dark_aqua"
+      "translate": "advancements.ruinedworld.campsite2.description",
+      "color": "white"
     },
     "icon": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:white_wool"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
@@ -27,7 +27,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruinedworld:moosstatue"
+                "structure": "ruinedworld:campsite2"
               }
             }
           }

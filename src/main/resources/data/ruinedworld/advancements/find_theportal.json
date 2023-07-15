@@ -1,12 +1,12 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.ruinedworld.moosstatue.title",
+      "translate": "advancements.ruinedworld.theportal.title",
       "color": "aqua",
       "bold": true
     },
     "description": {
-      "translate": "advancements.ruinedworld.moosstatue.description",
+      "translate": "advancements.ruinedworld.theportal.description",
       "color": "dark_aqua"
     },
     "icon": {
@@ -27,7 +27,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruinedworld:moosstatue"
+                "structure": "ruinedworld:theportal"
               }
             }
           }
@@ -40,5 +40,5 @@
       "location0"
     ]
   ],
-  "parent": "ruinedworld:rw_root"
+  "parent": "ruinedworld:"
 }

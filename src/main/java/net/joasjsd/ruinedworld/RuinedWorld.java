@@ -4,10 +4,9 @@ import com.mojang.logging.LogUtils;
 import net.joasjsd.ruinedworld.biome.RWSurfaceRules;
 import net.joasjsd.ruinedworld.block.RWBlocks;
 import net.joasjsd.ruinedworld.entity.RWEntities;
-import net.joasjsd.ruinedworld.entity.client.RobiumMinerRenderer;
+import net.joasjsd.ruinedworld.entity.client.ShadowmelderRenderer;
 import net.joasjsd.ruinedworld.item.RWCreativeModeTabs;
 import net.joasjsd.ruinedworld.item.RWItems;
-import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -53,9 +52,15 @@ public class RuinedWorld
             event.accept(RWBlocks.OVERGROWN_GRASS_BLOCK);
             event.accept(RWBlocks.PORTAL_BLOCK);
             event.accept(RWItems.OBSIDIAN_STICK);
-            event.accept(RWItems.ROBIUM_MINER_SPAWN_EGG);
             event.accept(RWItems.ROBIUM_PICKAXE);
+            event.accept(RWItems.ROBIUM_AXE);
+            event.accept(RWItems.ROBIUM_HOE);
+            event.accept(RWItems.ROBIUM_SHOVEL);
+            event.accept(RWItems.ROBIUM_SWORD);
             event.accept(RWBlocks.ROXIUS_BLOCK);
+            event.accept(RWBlocks.ROBIUM_BLOCK);
+            event.accept(RWItems.SHADOWMELDER_SPAWN_EGG);
+            event.accept(RWItems.SHADOWMELDER_HIDE);
         }
     }
 
@@ -65,7 +70,7 @@ public class RuinedWorld
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            EntityRenderers.register(RWEntities.ROBIUM_MINER.get(), RobiumMinerRenderer::new);
+            EntityRenderers.register(RWEntities.SHADOWMELDER.get(), ShadowmelderRenderer::new);
             event.enqueueWork(() ->
             {
                 // Weights are kept intentionally low as we add minimal biomes
