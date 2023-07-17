@@ -2,16 +2,12 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "name": "shadowmelder",
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ruinedworld:shadowmelder_hide"
+          "name": "ruinedworld:robium_ingot"
         }
       ],
       "rolls": 1.0

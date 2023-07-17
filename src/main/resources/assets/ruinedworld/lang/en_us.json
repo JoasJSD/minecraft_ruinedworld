@@ -15,6 +15,16 @@
   "advancements.ruinedworld.buried_shelter.description": "Find a Buried Shelter",
   "advancements.ruinedworld.buried_chest.title": "You Followed A Map (Probably)",
   "advancements.ruinedworld.buried_chest.description": "Find a Buried Chest.",
+  "advancements.ruinedworld.shadowmelder.title": "Is it mechanical? Biological?",
+  "advancements.ruinedworld.shadowmelder.description": "Kill A Shadowmelder",
+  "advancements.ruinedworld.robium_apple.title": "Better Than Enchanted Apple?",
+  "advancements.ruinedworld.robium_apple.description": "Eat a Robium Apple",
+  "advancements.ruinedworld.ruined_gate.title": "Where Is The City?",
+  "advancements.ruinedworld.ruined_gate.description": "Find a Ruined Gate",
+  "advancements.ruinedworld.seller_house.title": "Getting closer..",
+  "advancements.ruinedworld.seller_house.description": "Find a Seller House",
+  "advancements.ruinedworld.vault.title": "What Does This Lead To?",
+  "advancements.ruinedworld.vault.description": "Find a Vault.",
 
   "block.ruinedworld.robium_ore": "Robium Ore",
   "block.ruinedworld.deepslate_robium_ore": "Deepslate Robium Ore",
@@ -26,6 +36,11 @@
 
   "entity.ruinedworld.shadowmelder": "Shadowmelder",
 
+  "filled_map.ruinedworld:buried_chest": "Buried Chest Explorer Map",
+  "filled_map.ruinedworld:buried_shelter": "Buried Shelter Explorer Map",
+  "filled_map.ruinedworld:seller_house": "Seller House Explorer Map",
+  "filled_map.ruinedworld:theportal": "(Redacted) Explorer Map",
+
   "item.ruinedworld.robium_ingot": "Robium Ingot",
   "item.ruinedworld.shadowmelder_spawn_egg": "Shadowmelder Spawn Egg",
   "item.ruinedworld.obsidian_stick": "Obsidian Stick",
@@ -34,6 +49,11 @@
   "item.ruinedworld.robium_axe": "Robium Axe",
   "item.ruinedworld.robium_shovel": "Robium Shovel",
   "item.ruinedworld.robium_hoe": "Robium Hoe",
+  "item.ruinedworld.robium_helmet": "Robium Helmet",
+  "item.ruinedworld.robium_chestplate": "Robium Chestplate",
+  "item.ruinedworld.robium_leggings": "Robium Leggings",
+  "item.ruinedworld.robium_boots": "Robium Boots",
+  "item.ruinedworld.robium_apple": "Robium Apple",
 
   "tab.ruinedworld_tab": "Ruined World Tab"
 }

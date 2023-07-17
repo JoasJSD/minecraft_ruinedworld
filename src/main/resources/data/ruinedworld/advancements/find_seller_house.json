@@ -1,18 +1,18 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.ruinedworld.theportal.title",
-      "color": "aqua",
-      "bold": true
+      "translate": "advancements.ruinedworld.seller_house.title",
+      "color": "blue",
+      "bold": false
     },
     "description": {
-      "translate": "advancements.ruinedworld.theportal.description",
-      "color": "dark_aqua"
+      "translate": "advancements.ruinedworld.seller_house.description",
+      "color": "gray"
     },
     "icon": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:emerald"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
@@ -27,7 +27,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruinedworld:theportal"
+                "structure": "ruinedworld:seller_house"
               }
             }
           }
@@ -40,5 +40,5 @@
       "location0"
     ]
   ],
-  "parent": "ruinedworld:"
+  "parent": "ruinedworld:find_ruined_gate"
 }

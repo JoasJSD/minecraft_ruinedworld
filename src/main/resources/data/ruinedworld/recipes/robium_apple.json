@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "ruinedworld:robium_ingot"
+    },
+    "1": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "ruinedworld:robium_apple",
+    "count": 1
+  }
+}

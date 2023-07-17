@@ -2,6 +2,8 @@ package net.joasjsd.ruinedworld.item;
 
 import net.joasjsd.ruinedworld.RuinedWorld;
 import net.joasjsd.ruinedworld.entity.RWEntities;
+import net.joasjsd.ruinedworld.item.custom.RWArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,8 +20,6 @@ public class RWItems {
     public static final RegistryObject<Item> ROBIUM_INGOT = ITEMS.register("robium_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_STICK = ITEMS.register("obsidian_stick",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SHADOWMELDER_HIDE = ITEMS.register("shadowmelder_hide",
             () -> new Item(new Item.Properties()));
 
     // Robium Tools
@@ -38,6 +38,24 @@ public class RWItems {
     public static final RegistryObject<Item> ROBIUM_HOE = ITEMS.register("robium_hoe",
             () -> new HoeItem(RWTiers.ROBIUM, 5, 1.5f,
                     new Item.Properties()));
+
+    // Robium Tools
+    public static final RegistryObject<Item> ROBIUM_HELMET = ITEMS.register("robium_helmet",
+            () -> new RWArmorItem(RWArmorMaterials.ROBIUM, ArmorItem.Type.HELMET,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> ROBIUM_CHESTPLATE = ITEMS.register("robium_chestplate",
+            () -> new ArmorItem(RWArmorMaterials.ROBIUM, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> ROBIUM_LEGGINGS = ITEMS.register("robium_leggings",
+            () -> new ArmorItem(RWArmorMaterials.ROBIUM, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> ROBIUM_BOOTS = ITEMS.register("robium_boots",
+            () -> new ArmorItem(RWArmorMaterials.ROBIUM, ArmorItem.Type.BOOTS,
+                    new Item.Properties()));
+
+    // Food
+    public static final RegistryObject<Item> ROBIUM_APPLE = ITEMS.register("robium_apple",
+            () -> new Item(new Item.Properties().food(RWEdibleItems.ROBIUM_APPLE)));
 
     // Spawn Eggs
     public static final RegistryObject<Item> SHADOWMELDER_SPAWN_EGG = ITEMS.register("shadowmelder_spawn_egg",

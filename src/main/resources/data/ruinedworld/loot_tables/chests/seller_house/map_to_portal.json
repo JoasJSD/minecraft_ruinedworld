@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "ruinedworld:explorer_maps/theportal",
+              "destination": "ruinedworld:explorer_maps/vault",
               "decoration": "target_x",
               "zoom": 2,
               "skip_existing_chunks": false

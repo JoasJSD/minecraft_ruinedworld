@@ -60,7 +60,11 @@ public class RuinedWorld
             event.accept(RWBlocks.ROXIUS_BLOCK);
             event.accept(RWBlocks.ROBIUM_BLOCK);
             event.accept(RWItems.SHADOWMELDER_SPAWN_EGG);
-            event.accept(RWItems.SHADOWMELDER_HIDE);
+            event.accept(RWItems.ROBIUM_HELMET);
+            event.accept(RWItems.ROBIUM_CHESTPLATE);
+            event.accept(RWItems.ROBIUM_LEGGINGS);
+            event.accept(RWItems.ROBIUM_BOOTS);
+            event.accept(RWItems.ROBIUM_APPLE);
         }
     }
 

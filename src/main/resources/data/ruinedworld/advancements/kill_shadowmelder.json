@@ -1,0 +1,42 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.ruinedworld.shadowmelder.title",
+      "color": "gray",
+      "bold": false
+    },
+    "description": {
+      "translate": "advancements.ruinedworld.shadowmelder.description",
+      "color": "black"
+    },
+    "icon": {
+      "item": "ruinedworld:robium_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "killed_shadowmelder": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "ruinedworld:shadowmelder"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_shadowmelder"
+    ]
+  ],
+  "parent": "ruinedworld:rw_root"
+}

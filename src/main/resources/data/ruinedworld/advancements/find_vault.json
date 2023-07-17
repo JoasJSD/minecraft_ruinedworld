@@ -1,0 +1,44 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.ruinedworld.vault.title",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancements.ruinedworld.vault.description",
+      "color": "orange"
+    },
+    "icon": {
+      "item": "ruinedworld:portal_block"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ruinedworld:vault"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "location0"
+    ]
+  ],
+  "parent": "ruinedworld:find_seller_house"
+}
