@@ -3,7 +3,7 @@
     "title": {
       "translate": "advancements.ruinedworld.robium_apple.title",
       "color": "gold",
-      "bold": false
+      "bold": true
     },
     "description": {
       "translate": "advancements.ruinedworld.robium_apple.description",

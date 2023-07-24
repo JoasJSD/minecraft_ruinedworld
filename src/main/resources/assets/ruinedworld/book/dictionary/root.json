@@ -1,0 +1,16 @@
+{
+  "parent": "",
+  "text": "root.txt",
+  "title": "",
+  "title_locale": "book.dictionary.root",
+  "linked_page_buttons": [
+    {
+      "linked_page": "link_example.json",
+      "text": "Would you like to know more?",
+      "x": 290,
+      "y": 160,
+      "page": 1,
+      "item": "ruinedworld:robium_ingot"
+    }
+  ]
+}

@@ -22,5 +22,6 @@ public class DataGenerators {
 
         generator.addProvider(event.includeServer(), new RWWorldGenProvider(packOutput, lookupProvider));
         generator.addProvider(true, new RWItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(true, new RWBlockStateProvider(packOutput, existingFileHelper));
     }
 }

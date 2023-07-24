@@ -2,8 +2,9 @@ package net.joasjsd.ruinedworld.item;
 
 import net.joasjsd.ruinedworld.RuinedWorld;
 import net.joasjsd.ruinedworld.entity.RWEntities;
+import net.joasjsd.ruinedworld.item.custom.ItemBook;
+import net.joasjsd.ruinedworld.item.custom.ItemShadowmelderEye;
 import net.joasjsd.ruinedworld.item.custom.RWArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,8 @@ public class RWItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_STICK = ITEMS.register("obsidian_stick",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHADOWMELDER_EYE = ITEMS.register("shadowmelder_eye",
+            () -> new ItemShadowmelderEye(new Item.Properties()));
 
     // Robium Tools
     public static final RegistryObject<Item> ROBIUM_PICKAXE = ITEMS.register("robium_pickaxe",
@@ -39,7 +42,7 @@ public class RWItems {
             () -> new HoeItem(RWTiers.ROBIUM, 5, 1.5f,
                     new Item.Properties()));
 
-    // Robium Tools
+    // Robium Armor
     public static final RegistryObject<Item> ROBIUM_HELMET = ITEMS.register("robium_helmet",
             () -> new RWArmorItem(RWArmorMaterials.ROBIUM, ArmorItem.Type.HELMET,
                     new Item.Properties()));
@@ -53,9 +56,22 @@ public class RWItems {
             () -> new ArmorItem(RWArmorMaterials.ROBIUM, ArmorItem.Type.BOOTS,
                     new Item.Properties()));
 
+
+    public static final RegistryObject<Item> INFECTED_ROBIUM_HELMET = ITEMS.register("infected_robium_helmet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INFECTED_ROBIUM_CHESTPLATE = ITEMS.register("infected_robium_chestplate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INFECTED_ROBIUM_LEGGINGS = ITEMS.register("infected_robium_leggings",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INFECTED_ROBIUM_BOOTS = ITEMS.register("infected_robium_boots",
+            () -> new Item(new Item.Properties()));
     // Food
     public static final RegistryObject<Item> ROBIUM_APPLE = ITEMS.register("robium_apple",
             () -> new Item(new Item.Properties().food(RWEdibleItems.ROBIUM_APPLE)));
+
+    // Dictionary
+    public static final RegistryObject<Item> DICTIONARY = ITEMS.register("dictionary",
+            () -> new ItemBook(new Item.Properties().stacksTo(1)));
 
     // Spawn Eggs
     public static final RegistryObject<Item> SHADOWMELDER_SPAWN_EGG = ITEMS.register("shadowmelder_spawn_egg",

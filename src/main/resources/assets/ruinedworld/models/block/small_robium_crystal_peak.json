@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ruinedworld:block/small_robium_crystal_peak"
+  },
+  "render_type": "cutout"
+}

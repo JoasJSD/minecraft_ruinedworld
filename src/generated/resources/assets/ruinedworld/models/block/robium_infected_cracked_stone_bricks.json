@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ruinedworld:block/robium_infected_cracked_stone_bricks"
+  }
+}

@@ -1,17 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "000",
-    "0 0"
-  ],
-  "key": {
-    "0": {
-      "item": "ruinedworld:robium_ingot"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ruinedworld:infected_robium_helmet"
+  },
+  "addition": {
+    "item": "ruinedworld:shadowmelder_eye"
   },
   "result": {
-    "item": "ruinedworld:robium_helmet",
-    "count": 1
+    "item": "ruinedworld:robium_helmet"
   }
 }

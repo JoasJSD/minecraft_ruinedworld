@@ -1,5 +1,7 @@
 package net.joasjsd.ruinedworld;
 
+import com.github.alexthe666.citadel.ClientProxy;
+import com.github.alexthe666.citadel.ServerProxy;
 import com.mojang.logging.LogUtils;
 import net.joasjsd.ruinedworld.biome.RWSurfaceRules;
 import net.joasjsd.ruinedworld.block.RWBlocks;
@@ -12,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -21,6 +24,7 @@ import software.bernie.geckolib.GeckoLib;
 import terrablender.api.SurfaceRuleManager;
 
 @Mod(RuinedWorld.MODID)
+
 public class RuinedWorld
 {
     public static final String MODID = "ruinedworld";
@@ -65,6 +69,18 @@ public class RuinedWorld
             event.accept(RWItems.ROBIUM_LEGGINGS);
             event.accept(RWItems.ROBIUM_BOOTS);
             event.accept(RWItems.ROBIUM_APPLE);
+            event.accept(RWBlocks.ROBIUM_INFECTED_STONE);
+            event.accept(RWBlocks.LARGE_ROBIUM_CRYSTAL_PEAK);
+            event.accept(RWBlocks.MEDIUM_ROBIUM_CRYSTAL_PEAK);
+            event.accept(RWBlocks.SMALL_ROBIUM_CRYSTAL_PEAK);
+            event.accept(RWBlocks.ROBIUM_CRYSTAL_CLUSTER);
+            event.accept(RWBlocks.ROBIUM_INFECTED_CRACKED_STONE_BRICKS);
+            event.accept(RWBlocks.ROBIUM_INFECTED_STONE_BRICKS);
+            event.accept(RWItems.SHADOWMELDER_EYE);
+            event.accept(RWItems.INFECTED_ROBIUM_HELMET);
+            event.accept(RWItems.INFECTED_ROBIUM_CHESTPLATE);
+            event.accept(RWItems.INFECTED_ROBIUM_LEGGINGS);
+            event.accept(RWItems.INFECTED_ROBIUM_BOOTS);
         }
     }
 

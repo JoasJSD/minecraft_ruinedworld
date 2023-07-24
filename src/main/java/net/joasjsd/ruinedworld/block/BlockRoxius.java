@@ -1,4 +1,4 @@
-package net.joasjsd.ruinedworld.block.custom;
+package net.joasjsd.ruinedworld.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
@@ -7,8 +7,8 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class RoxiusBlock extends Block {
-    public RoxiusBlock(Properties properties) {
+public class BlockRoxius extends Block {
+    public BlockRoxius(Properties properties) {
         super(properties);
     }
 

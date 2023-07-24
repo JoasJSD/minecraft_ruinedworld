@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "ruinedworld:block/small_robium_crystal_peak",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "ruinedworld:block/small_robium_crystal_peak",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ruinedworld:block/small_robium_crystal_peak",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "ruinedworld:block/small_robium_crystal_peak",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "ruinedworld:block/small_robium_crystal_peak"
+    },
+    "facing=west": {
+      "model": "ruinedworld:block/small_robium_crystal_peak",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

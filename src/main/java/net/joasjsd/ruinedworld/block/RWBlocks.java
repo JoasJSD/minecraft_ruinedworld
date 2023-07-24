@@ -2,11 +2,10 @@ package net.joasjsd.ruinedworld.block;
 
 import net.joasjsd.ruinedworld.RuinedWorld;
 import net.joasjsd.ruinedworld.item.RWItems;
-import net.joasjsd.ruinedworld.block.custom.RoxiusBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.AmethystClusterBlock;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -17,6 +16,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
+import static net.minecraft.world.level.block.Blocks.AMETHYST_CLUSTER;
+
 public class RWBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, RuinedWorld.MODID);
@@ -26,13 +27,46 @@ public class RWBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(-1, 3600000).sound(SoundType.METAL)));
         public static final RegistryObject<Block> ROXIUS_BLOCK = registerBlock("roxius_block",
-            () -> new RoxiusBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new BlockRoxius(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(50f).requiresCorrectToolForDrops()));
 
     // Blocks
     public static final RegistryObject<Block> ROBIUM_BLOCK = registerBlock("robium_block",
-            () -> new RoxiusBlock(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(20f).requiresCorrectToolForDrops()));
+
+    // Robium Infected Blocks
+    public static final RegistryObject<Block> ROBIUM_INFECTED_STONE = registerBlock("robium_infected_stone",
+            () -> new BlockRobiumInfected(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(40f)));
+    public static final RegistryObject<Block> ROBIUM_INFECTED_STONE_BRICKS = registerBlock("robium_infected_stone_bricks",
+            () -> new BlockRobiumInfected(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(40f)));
+    public static final RegistryObject<Block> ROBIUM_INFECTED_CRACKED_STONE_BRICKS = registerBlock("robium_infected_cracked_stone_bricks",
+            () -> new BlockRobiumInfected(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(40f)));
+
+    // Robium Crystals
+        public static final RegistryObject<Block> SMALL_ROBIUM_CRYSTAL_PEAK = registerBlock("small_robium_crystal_peak",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD)
+                    .lightLevel((p_187409_) -> {
+                        return 1;
+                    })));
+    public static final RegistryObject<Block> MEDIUM_ROBIUM_CRYSTAL_PEAK = registerBlock("medium_robium_crystal_peak",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD)
+                    .lightLevel((p_187409_) -> {
+                        return 2;
+                    })));
+    public static final RegistryObject<Block> LARGE_ROBIUM_CRYSTAL_PEAK = registerBlock("large_robium_crystal_peak",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD)
+                    .lightLevel((p_187409_) -> {
+                        return 4;
+                    })));
+    public static final RegistryObject<Block> ROBIUM_CRYSTAL_CLUSTER = registerBlock("robium_crystal_cluster",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD)
+                    .lightLevel((p_187409_) -> {
+                        return 5;
+                    })));
 
     // Nature
     public static final RegistryObject<Block> OVERGROWN_GRASS_BLOCK = registerBlock("overgrown_grass_block",
