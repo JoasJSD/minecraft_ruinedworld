@@ -36,9 +36,9 @@
   "block.ruinedworld.robium_infected_stone_bricks": "Robium-Infizierte Steinziegel",
   "block.ruinedworld.robium_infected_cracked_stone_bricks": "Robium-Infizierte rissige Steinziegel",
   "block.ruinedworld.robium_crystal_cluster": "Robiumkristallhäufung",
-  "block.ruinedworld.small_robium_crystal_peak": "Small Robium Crystal Peak",
-  "block.ruinedworld.medium_robium_crystal_peak": "Medium Robium Crystal Peak",
-  "block.ruinedworld.large_robium_crystal_peak": "Large Robium Crystal Peak",
+  "block.ruinedworld.small_robium_crystal_peak": "Kleine Robiumkristallspitze",
+  "block.ruinedworld.medium_robium_crystal_peak": "Mittlere Robiumkristallspitze",
+  "block.ruinedworld.large_robium_crystal_peak": "Große Robiumkristallspitze",
 
   "entity.ruinedworld.shadowmelder": "Shadowmelder",
 
