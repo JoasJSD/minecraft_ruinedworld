@@ -1,8 +1,6 @@
 package net.joasjsd.ruinedworld;
 
-import com.github.alexthe666.citadel.ClientProxy;
-import com.github.alexthe666.citadel.ServerProxy;
-import com.mojang.logging.LogUtils;
+import com.github.alexthe666.citadel.config.ConfigHolder;
 import net.joasjsd.ruinedworld.biome.RWSurfaceRules;
 import net.joasjsd.ruinedworld.block.RWBlocks;
 import net.joasjsd.ruinedworld.entity.RWEntities;
@@ -10,28 +8,37 @@ import net.joasjsd.ruinedworld.entity.client.ShadowmelderRenderer;
 import net.joasjsd.ruinedworld.item.RWCreativeModeTabs;
 import net.joasjsd.ruinedworld.item.RWItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.slf4j.Logger;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.simple.SimpleChannel;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import software.bernie.geckolib.GeckoLib;
 import terrablender.api.SurfaceRuleManager;
+
+import java.util.Objects;
 
 @Mod(RuinedWorld.MODID)
 
 public class RuinedWorld
 {
     public static final String MODID = "ruinedworld";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger("ruinedworld");
+    public static final CommonProxy PROXY = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
-    public RuinedWorld()
-    {
+    public RuinedWorld() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         RWItems.register(modEventBus);

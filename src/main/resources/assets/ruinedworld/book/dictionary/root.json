@@ -1,7 +1,7 @@
 {
   "parent": "",
   "text": "root.txt",
-  "title": "",
+  "title": "item.ruinedworld.dictionary.title",
   "title_locale": "book.dictionary.root",
   "linked_page_buttons": [
     {
@@ -9,7 +9,7 @@
       "text": "Would you like to know more?",
       "x": 290,
       "y": 160,
-      "page": 1,
+      "page": 0,
       "item": "ruinedworld:robium_ingot"
     }
   ]
