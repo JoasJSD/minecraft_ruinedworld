@@ -11,7 +11,6 @@ public class BlockRobiumInfected extends Block {
     public BlockRobiumInfected(Properties properties) {
         super(properties);
     }
-
     public void stepOn(Level p_153777_, BlockPos p_153778_, BlockState p_153779_, Entity p_153780_) {
         if (!p_153780_.isSteppingCarefully() && p_153780_ instanceof LivingEntity) {
             p_153780_.hurt(p_153777_.damageSources().hotFloor(), 1.0F);

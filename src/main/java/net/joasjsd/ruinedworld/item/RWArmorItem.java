@@ -1,4 +1,4 @@
-package net.joasjsd.ruinedworld.item.custom;
+package net.joasjsd.ruinedworld.item;
 
 import com.google.common.collect.ImmutableMap;
 import net.joasjsd.ruinedworld.item.RWArmorMaterials;

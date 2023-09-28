@@ -1,6 +1,5 @@
-package net.joasjsd.ruinedworld.item.custom;
+package net.joasjsd.ruinedworld.item;
 
-import com.github.alexthe666.citadel.Citadel;
 import net.joasjsd.ruinedworld.RuinedWorld;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;

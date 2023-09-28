@@ -2,17 +2,12 @@ package net.joasjsd.ruinedworld.item;
 
 import net.joasjsd.ruinedworld.RuinedWorld;
 import net.joasjsd.ruinedworld.entity.RWEntities;
-import net.joasjsd.ruinedworld.item.custom.ItemBook;
-import net.joasjsd.ruinedworld.item.custom.ItemShadowmelderEye;
-import net.joasjsd.ruinedworld.item.custom.RWArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.Objects;
 
 public class RWItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -21,6 +16,12 @@ public class RWItems {
     public static final RegistryObject<Item> ROBIUM_INGOT = ITEMS.register("robium_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_STICK = ITEMS.register("obsidian_stick",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SCRAP = ITEMS.register("scrap",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_PIPE = ITEMS.register("metal_pipe",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROAD_SIGN = ITEMS.register("road_sign",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SHADOWMELDER_EYE = ITEMS.register("shadowmelder_eye",
             () -> new ItemShadowmelderEye(new Item.Properties()));

@@ -26,9 +26,15 @@ public class RWBlocks {
     public static final RegistryObject<Block> PORTAL_BLOCK = registerBlock("portal_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(-1, 3600000).sound(SoundType.METAL)));
-        public static final RegistryObject<Block> ROXIUS_BLOCK = registerBlock("roxius_block",
+    public static final RegistryObject<Block> ROXIUS_BLOCK = registerBlock("roxius_block",
             () -> new BlockRoxius(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(50f).requiresCorrectToolForDrops()));
+
+    // Machines
+    public static final RegistryObject<Block> RECYCLER = registerBlock("recycler",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(10f).sound(SoundType.METAL)));
+
 
     // Blocks
     public static final RegistryObject<Block> ROBIUM_BLOCK = registerBlock("robium_block",
@@ -82,6 +88,9 @@ public class RWBlocks {
                     .strength(5f).requiresCorrectToolForDrops()));
     // Decoration
     public static final RegistryObject<Block> OIL_BARREL = registerBlock("oil_barrel",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> GAS_BARREL = registerBlock("gas_barrel",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 

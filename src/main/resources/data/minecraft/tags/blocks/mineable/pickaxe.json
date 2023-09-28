@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "ruinedworld:robium_ore",
+    "ruinedworld:oil_barrel",
+    "ruinedworld:gas_barrel",
     "ruinedworld:deepslate_robium_ore",
     "ruinedworld:roxius_block",
     "ruinedworld:robium_block",

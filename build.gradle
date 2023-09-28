@@ -58,7 +58,7 @@ dependencies {
 
 // This is new -end
 
-version = '0.0.1-1.19.4'
+version = '0.5.2.BETA-1.19.4'
 group = 'net.joasjsd.ruinedworld' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ruinedworld'
 

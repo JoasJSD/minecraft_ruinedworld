@@ -13,11 +13,11 @@ public class GUIDictionary extends GuiBasicBook {
     private static final ResourceLocation ROOT = new ResourceLocation("ruinedworld:book/dictionary/root.json");
 
     public GUIDictionary(ItemStack bookStack) {
-        super(bookStack, Component.translatable("item.ruinedworld.dictionary.title"));
+        super(bookStack, Component.translatable("item.ruinedworld.dictionary.root.title"));
     }
 
     public GUIDictionary(ItemStack bookStack, String page) {
-        super(bookStack, Component.translatable("item.ruinedworld.dictionary.title"));
+        super(bookStack, Component.translatable("item.ruinedworld.dictionary.root.title"));
         this.currentPageJSON = new ResourceLocation(this.getTextFileDirectory() + page + ".json");
     }
 

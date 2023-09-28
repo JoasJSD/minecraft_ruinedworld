@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "ruinedworld:block/gas_barrel_top",
+    "down": "ruinedworld:block/gas_barrel_bottom",
+    "east": "ruinedworld:block/gas_barrel_side",
+    "south": "ruinedworld:block/gas_barrel_side",
+    "west": "ruinedworld:block/gas_barrel_side",
+    "north": "ruinedworld:block/gas_barrel_side",
+    "particle": "ruinedworld:block/gas_barrel_bottom"
+  },
+  "render_type": "solid"
+}

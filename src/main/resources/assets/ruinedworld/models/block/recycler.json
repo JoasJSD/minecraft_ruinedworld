@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "ruinedworld:block/recycler_top",
+    "down": "ruinedworld:block/recycler_bottom",
+    "east": "ruinedworld:block/recycler_side",
+    "south": "ruinedworld:block/recycler_side",
+    "west": "ruinedworld:block/recycler_side",
+    "north": "ruinedworld:block/recycler_side",
+    "particle": "ruinedworld:block/recycler_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,13 +1,9 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "ruinedworld:custom/oil_barrel",
   "textures": {
-    "up": "ruinedworld:block/oil_barrel_top",
-    "down": "ruinedworld:block/oil_barrel_bottom",
-    "east": "ruinedworld:block/oil_barrel_side",
-    "south": "ruinedworld:block/oil_barrel_side",
-    "west": "ruinedworld:block/oil_barrel_side",
-    "north": "ruinedworld:block/oil_barrel_side",
-    "particle": "ruinedworld:block/oil_barrel_bottom"
+    "all": "ruinedworld:block/oil_barrel",
+    "particle": "ruinedworld:block/oil_barrel",
+    "0": "ruinedworld:block/oil_barrel"
   },
   "render_type": "solid"
 }

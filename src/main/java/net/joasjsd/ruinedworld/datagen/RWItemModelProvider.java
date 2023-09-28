@@ -31,13 +31,11 @@ public class RWItemModelProvider extends ItemModelProvider {
         withExistingParent(RWItems.SHADOWMELDER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
-
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(RuinedWorld.MODID,"item/" + item.getId().getPath()));
     }
-
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/handheld")).texture("layer0",

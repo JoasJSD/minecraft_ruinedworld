@@ -1,34 +1,25 @@
 package net.joasjsd.ruinedworld;
 
-import com.github.alexthe666.citadel.config.ConfigHolder;
 import net.joasjsd.ruinedworld.biome.RWSurfaceRules;
 import net.joasjsd.ruinedworld.block.RWBlocks;
 import net.joasjsd.ruinedworld.entity.RWEntities;
 import net.joasjsd.ruinedworld.entity.client.ShadowmelderRenderer;
-import net.joasjsd.ruinedworld.item.RWCreativeModeTabs;
+import net.joasjsd.ruinedworld.misc.RWCreativeModeTabs;
 import net.joasjsd.ruinedworld.item.RWItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.network.NetworkRegistry;
-import net.minecraftforge.network.simple.SimpleChannel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import software.bernie.geckolib.GeckoLib;
 import terrablender.api.SurfaceRuleManager;
-
-import java.util.Objects;
 
 @Mod(RuinedWorld.MODID)
 
@@ -51,13 +42,16 @@ public class RuinedWorld
         modEventBus.addListener(this::addCreative);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-    }
-
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == RWCreativeModeTabs.RUINEDWORLD_TAB) {
-            event.accept(RWBlocks.ROBIUM_ORE);
+            // Items
             event.accept(RWItems.ROBIUM_INGOT);
+            event.accept(RWItems.SCRAP);
+            event.accept(RWItems.METAL_PIPE);
+            event.accept(RWItems.ROAD_SIGN);
+            // Blocks
+            event.accept(RWBlocks.GAS_BARREL);
+            event.accept(RWBlocks.ROBIUM_ORE);
             event.accept(RWBlocks.DEEPSLATE_ROBIUM_ORE);
             event.accept(RWBlocks.OIL_BARREL);
             event.accept(RWBlocks.OVERGROWN_GRASS_BLOCK);
@@ -89,6 +83,9 @@ public class RuinedWorld
             event.accept(RWItems.INFECTED_ROBIUM_LEGGINGS);
             event.accept(RWItems.INFECTED_ROBIUM_BOOTS);
         }
+    }
+
+    private void commonSetup(final FMLCommonSetupEvent event) {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
