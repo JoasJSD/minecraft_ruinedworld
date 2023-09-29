@@ -7,10 +7,6 @@ Please follow the guidelines below to contribute to the translation effort!
 
 1. Please do not translate languages with translators.
 2. Ensure you're using proper grammar.
-3. You're allowed to translate this mod into your own constructed language, but please let people do so by putting a note at the very top of the translation file:
- "_comment": "Custom language 'Language name (Language name in the conlang)', created by Username."
- For example, this is what should be added to your conlang language file:
- "_comment": "Custom language 'Vylisian (Liegulies Vylies)', created by ieguana."
 
 # Adding/updating Translations
 1. Fork our repository
@@ -23,10 +19,12 @@ https://minecraft.wiki/w/Language
 
 
 # Translation Blacklist
-All words listed here shouldn't be translated, and should be just kept in their original form. For example, if you translate "Baoielies" into Spanish, it should stay "Baoielies".
+All words listed here shouldn't be translated, and should be just kept in their original form. For example, if you translate "Shadowmelder" into Spanish, it should stay "Shadowmelder".
 If a translation file is sent that translates any word listed here, the author will be told to change it.
 
 Blacklist:
-''To be worked on''
+- Shadowmelder
+- Robium
+- Roxius
 
 (Thanks to ieguana for letting me use his template for this page)
