@@ -23,6 +23,8 @@ public class RWItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROAD_SIGN = ITEMS.register("road_sign",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SCRAP_METAL = ITEMS.register("scrap_metal",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SHADOWMELDER_EYE = ITEMS.register("shadowmelder_eye",
             () -> new ItemShadowmelderEye(new Item.Properties()));
 
