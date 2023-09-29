@@ -32,9 +32,8 @@ public class RWBlocks {
 
     // Machines
     public static final RegistryObject<Block> RECYCLER = registerBlock("recycler",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(10f).sound(SoundType.METAL)));
-
+            () -> new BlockRecycler(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(3.5F)));
 
     // Blocks
     public static final RegistryObject<Block> ROBIUM_BLOCK = registerBlock("robium_block",
