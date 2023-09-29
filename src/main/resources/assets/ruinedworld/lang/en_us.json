@@ -43,6 +43,8 @@
   "block.ruinedworld.large_robium_crystal_peak": "Large Robium Crystal Peak",
   "block.ruinedworld.recycler": "Recycler",
 
+  "block.ruinedworld.recycler.title": "Hehe test",
+
   "entity.ruinedworld.shadowmelder": "Shadowmelder",
 
   "filled_map.ruinedworld:buried_chest": "Buried Chest Explorer Map",
@@ -73,8 +75,11 @@
   "item.ruinedworld.scrap": "Scrap",
   "item.ruinedworld.metal_pipe": "Metal Pipe",
   "item.ruinedworld.road_sign": "Road Sign",
+  "item.ruinedworld.scrap_metal": "Scrap Metal",
 
   "item.ruinedworld.dictionary.root.title": "Ruined World",
+
+  "container.ruinedworld.recycler": "Recycler",
 
   "tab.ruinedworld_tab": "Ruined World Tab"
 }

@@ -2,13 +2,10 @@ package net.joasjsd.ruinedworld;
 
 import net.joasjsd.ruinedworld.biome.RWSurfaceRules;
 import net.joasjsd.ruinedworld.block.RWBlocks;
-import net.joasjsd.ruinedworld.block.entity.RWBlockEntities;
 import net.joasjsd.ruinedworld.entity.RWEntities;
 import net.joasjsd.ruinedworld.entity.client.ShadowmelderRenderer;
 import net.joasjsd.ruinedworld.misc.RWCreativeModeTabs;
 import net.joasjsd.ruinedworld.item.RWItems;
-import net.joasjsd.ruinedworld.recipe.RWRecipe;
-import net.joasjsd.ruinedworld.world.inventory.RWMenuType;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -38,8 +35,6 @@ public class RuinedWorld
         RWItems.register(modEventBus);
         RWBlocks.register(modEventBus);
         RWEntities.register(modEventBus);
-        RWBlockEntities.register(modEventBus);
-        RWMenuType.register(modEventBus);
 
         GeckoLib.initialize();
 
