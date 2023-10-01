@@ -4,7 +4,7 @@ import net.joasjsd.ruinedworld.biome.RWSurfaceRules;
 import net.joasjsd.ruinedworld.block.RWBlocks;
 import net.joasjsd.ruinedworld.entity.RWEntities;
 import net.joasjsd.ruinedworld.entity.client.ShadowmelderRenderer;
-import net.joasjsd.ruinedworld.misc.RWCreativeModeTabs;
+import net.joasjsd.ruinedworld.misc.RWCreativeModeTab;
 import net.joasjsd.ruinedworld.item.RWItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
@@ -43,13 +43,14 @@ public class RuinedWorld
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == RWCreativeModeTabs.RUINEDWORLD_TAB) {
+        if(event.getTab() == RWCreativeModeTab.RUINEDWORLD_TAB) {
             // Items
             event.accept(RWItems.ROBIUM_INGOT);
             event.accept(RWItems.SCRAP);
             event.accept(RWItems.METAL_PIPE);
             event.accept(RWItems.ROAD_SIGN);
             event.accept(RWItems.SCRAP_METAL);
+            event.accept(RWItems.BUNCH_OF_SCRAP);
             // Blocks
             event.accept(RWBlocks.GAS_BARREL);
             event.accept(RWBlocks.ROBIUM_ORE);

@@ -1,4 +1,4 @@
-package net.joasjsd.ruinedworld.entity.custom;
+package net.joasjsd.ruinedworld.entity;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -18,9 +18,9 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
-public class ShadowmelderEntity extends Monster implements GeoEntity {
+public class EntityShadowmelder extends Monster implements GeoEntity {
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-    public ShadowmelderEntity(EntityType<? extends Monster> p_33002_, Level p_33003_) {
+    public EntityShadowmelder(EntityType<? extends Monster> p_33002_, Level p_33003_) {
         super(p_33002_, p_33003_);
     }
 

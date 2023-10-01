@@ -1,0 +1,16 @@
+{
+  "parent": "",
+  "text": "root.txt",
+  "title": "item.ruinedworld.guide_book.root.title",
+  "title_locale": "book.guide_book.root",
+  "linked_page_buttons": [
+    {
+      "linked_page": "recipes.json",
+      "text": "Structures",
+      "x": 290,
+      "y": 20,
+      "page": 0,
+      "item": "ruinedworld:robium_pickaxe"
+    }
+  ]
+}

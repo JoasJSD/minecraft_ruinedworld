@@ -1,0 +1,8 @@
+Update 0.5.2.BETA was the first version ever released to the public.
+This was basically the main part of the mod.
+This release brought many of the main parts with it.
+For example:
+The 10 first structures,
+The many items,
+The first mob,
+Etc Etc.

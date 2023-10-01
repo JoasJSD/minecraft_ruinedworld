@@ -1,0 +1,16 @@
+{
+  "parent": "",
+  "text": "root.txt",
+  "title": "book.ruinedworld.update_book.root.title",
+  "title_locale": "book.update_book.root",
+  "linked_page_buttons": [
+    {
+      "linked_page": "beta_updates.json",
+      "text": "BETA Updates",
+      "x": 290,
+      "y": 20,
+      "page": 0,
+      "item": "ruinedworld:robium_ingot"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "root.json",
+  "text": "beta_updates.txt",
+  "title": "book.ruinedworld.update_book.beta_updates.title",
+  "title_locale": "book.update_book.beta_updates",
+  "linked_page_buttons": [
+    {
+      "linked_page": "update052.json",
+      "text": "BETA 0.5.2",
+      "x": 290,
+      "y": 20,
+      "page": 0
+    }
+  ]
+}

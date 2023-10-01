@@ -1,0 +1,24 @@
+{
+  "parent": "beta_updates.json",
+  "text": "update052.txt",
+  "title": "book.ruinedworld.update_book.update052.title",
+  "title_locale": "book.dictionary.update052",
+  "linked_page_buttons": [
+
+  ],
+  "item_renders": [
+
+  ],
+  "recipes": [
+
+  ],
+  "tabula_renders": [
+
+  ],
+  "entity_renders": [
+
+  ],
+  "entity_buttons": [
+
+  ]
+}

@@ -2,7 +2,6 @@ modLoader="javafml" #mandatory
 loaderVersion="[45,)" #mandatory
 license="MIT"
 issueTrackerURL="https://discord.gg/XAnP2pq6xh" #optional
-# haha
 [[mods]] #mandatory
 modId="ruinedworld" #mandatory
 version="0.6.0.BETA" #mandatory

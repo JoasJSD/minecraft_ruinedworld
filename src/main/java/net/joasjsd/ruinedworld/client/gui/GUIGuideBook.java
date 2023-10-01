@@ -8,16 +8,16 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
-public class GUIDictionary extends GuiBasicBook {
+public class GUIGuideBook extends GuiBasicBook {
 
-    private static final ResourceLocation ROOT = new ResourceLocation("ruinedworld:book/dictionary/root.json");
+    private static final ResourceLocation ROOT = new ResourceLocation("ruinedworld:book/guide_book/root.json");
 
-    public GUIDictionary(ItemStack bookStack) {
-        super(bookStack, Component.translatable("item.ruinedworld.dictionary.root.title"));
+    public GUIGuideBook(ItemStack bookStack) {
+        super(bookStack, Component.translatable("book.ruinedworld.guide_book.root.title"));
     }
 
-    public GUIDictionary(ItemStack bookStack, String page) {
-        super(bookStack, Component.translatable("item.ruinedworld.dictionary.root.title"));
+    public GUIGuideBook(ItemStack bookStack, String page) {
+        super(bookStack, Component.translatable("book.ruinedworld.guide_book.root.title"));
         this.currentPageJSON = new ResourceLocation(this.getTextFileDirectory() + page + ".json");
     }
 
@@ -30,6 +30,6 @@ public class GUIDictionary extends GuiBasicBook {
     }
 
     public String getTextFileDirectory() {
-        return "ruinedworld:book/dictionary/";
+        return "ruinedworld:book/guide_book/";
     }
 }

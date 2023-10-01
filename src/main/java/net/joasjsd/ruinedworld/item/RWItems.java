@@ -25,6 +25,8 @@ public class RWItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCRAP_METAL = ITEMS.register("scrap_metal",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BUNCH_OF_SCRAP = ITEMS.register("bunch_of_scrap",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SHADOWMELDER_EYE = ITEMS.register("shadowmelder_eye",
             () -> new ItemShadowmelderEye(new Item.Properties()));
 
@@ -72,9 +74,11 @@ public class RWItems {
     public static final RegistryObject<Item> ROBIUM_APPLE = ITEMS.register("robium_apple",
             () -> new Item(new Item.Properties().food(RWEdibleItems.ROBIUM_APPLE)));
 
-    // Dictionary
-    public static final RegistryObject<Item> DICTIONARY = ITEMS.register("dictionary",
-            () -> new ItemBook(new Item.Properties().stacksTo(1)));
+    // Dictionaries
+    public static final RegistryObject<Item> DICTIONARY = ITEMS.register("guide_book",
+            () -> new ItemGuideBook(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> UPDATE_BOOK = ITEMS.register("update_book",
+            () -> new ItemUpdateBook(new Item.Properties().stacksTo(1)));
 
     // Spawn Eggs
     public static final RegistryObject<Item> SHADOWMELDER_SPAWN_EGG = ITEMS.register("shadowmelder_spawn_egg",

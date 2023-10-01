@@ -8,6 +8,8 @@ import static net.joasjsd.ruinedworld.RuinedWorld.MODID;
 @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CommonProxy {
 
-    public void openBookGUI(ItemStack itemStackIn) {
+    public void openGuideBookGUI(ItemStack itemStackIn) {
+    }
+    public void openUpdateBookGUI(ItemStack itemStackIn) {
     }
 }

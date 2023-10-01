@@ -32,7 +32,7 @@ public class RWBlocks {
 
     // Machines
     public static final RegistryObject<Block> RECYCLER = registerBlock("recycler",
-            () -> new BlockRecycler(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .requiresCorrectToolForDrops().strength(3.5F)));
 
     // Blocks

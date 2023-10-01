@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "ruinedworld:bunch_of_scrap"
+    }
+  },
+  "result": {
+    "item": "ruinedworld:scrap",
+    "count": 2
+  }
+}
