@@ -1,4 +1,4 @@
-package net.joasjsd.ruinedworld.event;
+package net.joasjsd.ruinedworld.util.event;
 
 import net.joasjsd.ruinedworld.RuinedWorld;
 import net.joasjsd.ruinedworld.entity.RWEntities;

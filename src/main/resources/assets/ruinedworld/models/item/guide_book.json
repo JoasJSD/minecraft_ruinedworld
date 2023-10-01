@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ruinedworld:item/dictionary"
+    "layer0": "ruinedworld:item/guide_book"
   }
 }

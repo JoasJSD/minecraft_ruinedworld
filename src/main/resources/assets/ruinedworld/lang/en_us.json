@@ -57,8 +57,7 @@
   "filled_map.ruinedworld:seller_house": "Seller House Explorer Map",
   "filled_map.ruinedworld:theportal": "(Redacted) Explorer Map",
 
-  "item.ruinedworld.dictionary": "Dictionary",
-  "item.ruinedworld.dictionary.root.title": "Ruined World",
+  "item.ruinedworld.guide_book": "Guide Book",
   "item.ruinedworld.infected_robium_boots": "Infected Robium Boots",
   "item.ruinedworld.infected_robium_chestplate": "Infected Robium Chestplate",
   "item.ruinedworld.infected_robium_helmet": "Infected Robium Helmet",
@@ -84,6 +83,10 @@
   "item.ruinedworld.shadowmelder_spawn_egg": "Shadowmelder Spawn Egg",
   "item.ruinedworld.update_book": "Ruined World Update Book",
   "item.ruinedworld.bunch_of_scrap": "Bunch Of Scrap",
+
+  "message.ruinedworld.join.welcome": "Welcome! ",
+  "message.ruinedworld.join.thanks": "Thank you for playing the ",
+  "message.ruinedworld.join.end": "version of Ruined Worlds! I hope you'll enjoy!",
 
   "tab.ruinedworld_tab": "Ruined World Tab"
 }

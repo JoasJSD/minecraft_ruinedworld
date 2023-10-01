@@ -17,7 +17,7 @@ public class ItemGuideBook extends Item {
     public InteractionResultHolder<ItemStack> use(Level worldIn, Player playerIn, InteractionHand handIn) {
         ItemStack itemStackIn = playerIn.getItemInHand(handIn);
         if (worldIn.isClientSide) {
-            RuinedWorld.PROXY.openBookGUI(itemStackIn);
+            RuinedWorld.PROXY.openGuideBookGUI(itemStackIn);
         }
 
         return new InteractionResultHolder(InteractionResult.PASS, itemStackIn);

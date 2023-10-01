@@ -1,12 +1,12 @@
 {
   "parent": "",
   "text": "root.txt",
-  "title": "item.ruinedworld.guide_book.root.title",
+  "title": "book.ruinedworld.guide_book.root.title",
   "title_locale": "book.guide_book.root",
   "linked_page_buttons": [
     {
       "linked_page": "recipes.json",
-      "text": "Structures",
+      "text": "Recipes",
       "x": 290,
       "y": 20,
       "page": 0,

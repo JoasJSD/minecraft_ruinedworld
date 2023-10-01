@@ -75,7 +75,7 @@ public class RWItems {
             () -> new Item(new Item.Properties().food(RWEdibleItems.ROBIUM_APPLE)));
 
     // Dictionaries
-    public static final RegistryObject<Item> DICTIONARY = ITEMS.register("guide_book",
+    public static final RegistryObject<Item> GUIDE_BOOK = ITEMS.register("guide_book",
             () -> new ItemGuideBook(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> UPDATE_BOOK = ITEMS.register("update_book",
             () -> new ItemUpdateBook(new Item.Properties().stacksTo(1)));
