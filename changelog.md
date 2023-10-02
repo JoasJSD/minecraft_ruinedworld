@@ -1,3 +1,4 @@
+> This mod is still in development! Currently only BETA versions are released!
 # ChangeLog
 ## Version 0.5.2.BETA
 Release page: https://modrinth.com/mod/ruined-worlds/version/0.5.2.BETA<br/>
