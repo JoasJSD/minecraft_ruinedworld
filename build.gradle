@@ -1,4 +1,3 @@
-// This is new
 buildscript {
     repositories {
         maven { url = 'https://files.minecraftforge.net/maven' }
@@ -56,9 +55,7 @@ dependencies {
     implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.19.4-2.2.0.168")
 }
 
-// This is new -end
-
-version = '0.6.0.BETA-1.19.4'
+version = '0.5.5.BETA-1.19.4'
 group = 'net.joasjsd.ruinedworld' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ruinedworld'
 

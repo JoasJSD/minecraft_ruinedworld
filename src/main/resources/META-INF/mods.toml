@@ -4,12 +4,12 @@ license="MIT"
 issueTrackerURL="https://discord.gg/XAnP2pq6xh" #optional
 [[mods]] #mandatory
 modId="ruinedworld" #mandatory
-version="0.6.0.BETA" #mandatory
-displayName="Ruined World" #mandatory
-#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+version="0.5.5.BETA" #mandatory
+displayName="Ruined Worlds" #mandatory
+#updateJSONURL="" #optional
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 logoFile= "thumb.png" #optional
-credits="For some of the textures: ieguana" #optional
+credits="https://github.com/JoasJSD/minecraft_ruinedworld/blob/ruinedworld1.19.4/credits.md" #optional
 authors="JoasJSD" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 description='''
@@ -28,11 +28,11 @@ Ready to go through the history of this new Ruined World? Discover this new worl
     side="BOTH"
 
 [[dependencies.ruinedworld]] #optional
-modId="geckolib" #mandatory
-mandatory=true #mandatory
-versionRange="[4.1.3,)" #mandatory
-ordering="NONE"
-side="BOTH"
+    modId="geckolib" #mandatory
+    mandatory=true #mandatory
+    versionRange="[4.1.3,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.ruinedworld]]
     modId="minecraft"

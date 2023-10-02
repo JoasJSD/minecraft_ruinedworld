@@ -1,0 +1,14 @@
+Update 0.5.5.BETA is the first update of the bigger update "The Scrap Update".
+This update adds a few things to the game:
+<NEWLINE>
+The book you're currently reading, the Guide Book (Big work-in-progress),
+Scrap, Bunch Of Scrap, Metal Pipe, Road Sign,
+A new structure; Scrap Pallet and the Gas Barrel
+<NEWLINE>
+Metal Pipes and Road Signs can be smelted into Bunch Of Scrap which can be crafted into two Scraps.
+Those can be smelted again into Scrap Metal which currently doesn't hold a use.
+<NEWLINE>
+There's one change:
+The Oil Barrel's model has changed into a 3D Model.
+<NEWLINE>
+Translations remain to be undone.

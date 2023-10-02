@@ -10,6 +10,14 @@
       "x": 290,
       "y": 20,
       "page": 0
+    },
+    {
+      "linked_page": "update055.json",
+      "text": "BETA 0.5.5",
+      "x": 290,
+      "y": 40,
+      "page": 0,
+      "item": "ruinedworld:scrap"
     }
   ]
 }

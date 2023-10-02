@@ -23,6 +23,10 @@
 		{
 			"structure": "ruinedworld:ruined_gate",
 			"weight": 1
+		},
+		{
+			"structure": "ruinedworld:scrap_pallet",
+			"weight": 2
 		}
 	],
 	"placement": {
