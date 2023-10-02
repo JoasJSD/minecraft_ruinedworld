@@ -13,7 +13,7 @@ Working towards the "Scrap Update"! A few things have added and many are to come
 * Metal Pipe
 * A Guide and Update book/dictionary
 #### Changes
-* Changed the model of the Oil Barrel of a 3D version
+* Changed the model of the Oil Barrel to a 3D version
 #### Other Notes
 * Translation are left untouched. This is because many new things are added in a small period of time, meaning it gets too chaotic to comfortably add translations.
 ## Version 0.5.2.BETA
